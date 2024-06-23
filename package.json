@@ -4,7 +4,8 @@
   "description": "A template for fullstack work. React SPA + Express Backend",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:be": "npm run dev --prefix ./src/backend",
+    "dev:fe": "npm start --prefix ./src/frontend"
   },
   "repository": {
     "type": "git",
